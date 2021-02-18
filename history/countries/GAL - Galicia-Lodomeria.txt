@@ -80,15 +80,15 @@ set_politics = {
 
 set_popularities = {
 	totalist = 0
-	radical_socialist = 0
-	syndicalist = 0
-	social_democrat = 2
-	social_liberal = 6
-	market_liberal = 6
-	social_conservative = 19
-	authoritarian_democrat = 54
-	paternal_autocrat = 12
-	national_populist = 1
+	radical_socialist = 11
+	syndicalist = 6
+	social_democrat = 17
+	social_liberal = 23
+	market_liberal = 4
+	social_conservative = 18
+	authoritarian_democrat = 7
+	paternal_autocrat = 14
+	national_populist = 0
 }
 
 set_stability = 0.60
@@ -100,6 +100,10 @@ add_ideas = {
 	GAL_Kazimierz_Kumaniecki_sec_sco
 
 	AUS_part_of_the_Empire
+        GAL_golicja_glodomeria
+        GAL_rural_society
+        GAL_minority_unrest
+        GAL_shattered_unity
 }
 
 create_country_leader = {
@@ -108,6 +112,54 @@ create_country_leader = {
 	picture = "Portrait_Galicia_Karl_Albrecht.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
+}
+
+create_country_leader = {
+	name = "Eugeniusz Okoń"
+	desc = "POLITICS_GAL_EUGENIUSZ_OKON_DESC"
+	picture = "Portrait_GAL_Eugeniusz_Okon.tga"
+	expire = "1965.1.1"
+	ideology = radical_socialist_subtype
+}
+
+create_country_leader = {
+	name = "Ignacy Daszyński"
+	desc = "POLITICS_GAL_INGACY_DASZYNSKI_DESC"
+	picture = "Portrait_GAL_Karl_Ignacy_Daszynski.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+}
+
+create_country_leader = {
+	name = "Wincenty Witos"
+	desc = "POLITICS_GAL_WINCENTY_WITOS_DESC"
+	picture = "Portrait_GAL_Wincenty_Witos.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+}
+
+create_country_leader = {
+	name = "Adam Krzyżanowski"
+	desc = "POLITICS_GAL_ADAM_KRZYZANOWSKI_DESC"
+	picture = "Portrait_GAL_Adam_Krzyzanowski.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_subtype
+}
+
+create_country_leader = {
+	name = "Hieronim Tarnowski"
+	desc = "POLITICS_GAL_HIERONIM_TARNOWSKI.tga"
+	picture = "Portrait_GAL_Hieronim_Tarnowski.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+}
+
+create_country_leader = {
+	name = "Jan Potocki"
+	desc = "POLITICS_GAL_JAN_POTOCKI_DESC"
+	picture = "Portrait_GAL_Jan_Potocki.tga"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
 }
 
 create_field_marshal = {
@@ -196,3 +248,5 @@ create_corps_commander = {
 	planning_skill = 1
 	logistics_skill = 1
 }
+
+

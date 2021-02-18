@@ -14,6 +14,34 @@ ideas = {
 		}
 	}
 
+        country = {
+		GAL_golicja_glodomeria = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAL_golicja_glodomeria"}
+			picture = generic_volunteer_expedition_bonus
+		}
+	}
+
+        country = {
+		GAL_rural_society = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAL_rural_society"}
+			picture = generic_volunteer_expedition_bonus
+		}
+	}
+  
+        country = {
+		GAL_minority_unrest = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAL_minority_unrest"}
+			picture = generic_volunteer_expedition_bonus
+		}
+	}
+
+        country = {
+		GAL_shattered_unity = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GAL_shattered_unity"}
+			picture = generic_volunteer_expedition_bonus
+		}
+	}
+
 ##############
 # Companies
 ##############

@@ -1,5 +1,25 @@
 ﻿l_english:
 
+KX_Galicia:0 "Galicia Focus Tree"
+
+### Leaders ###
+
+### Ideas ###
+GAL_golicja_glodomeria:0 "Golicja i Głodomeria"
+GAL_golicja_glodomeria_desc:0 "tbd - very poor region, lack of funds from Vienna, Nakedia & Hungeria"
+GAL_rural_society:0 "Rural Society"
+GAL_rural_society_desc:0 "tbd - Galicia is mostly peasant country, small industry except for oil"
+GAL_minority_unrest:0 "Restless Minorities"
+GAL_minority_unrest_desc:0 "tbd - poles are a majority, minorities are uneasy, mostly ukrainians"
+GAL_shattered_unity:0 "Shattered Political Unity"
+GAL_shattered_unity_desc:0 "tbd - memories of Temporary Commission of Confederated Independence Parties and Supreme National Committee, splits in politics for example Stańczyks and Podolans"
+
+### Tooltips ###
+
+### Focuses ###
+
+### Decisions ###
+
 ### Events ###
 gal.1.t:0 "Galicia and Lodomeria Becomes Independent"
 gal.1.d:0 "After centuries under Habsburg rule that began with the first partition of the Polish-Lithuanian Commonwealth in 1772, Galicia Lodomeria sees herself independent. But we are a weak state surrounded by impressive neighbours - and maybe we would do good seeking protection from Poland, the nation our territory has been taken from all these years ago."
@@ -34,3 +54,26 @@ gal.7.t:0 "Karl Albrecht Elected as King of Poland"
 gal.7.d:0 "The current Governor of Galicia and Lodomeria, Karl Albrecht von Habsburg, has just been elected as the new King of Poland after an intensely contested vote. Karl Albrecht is expected to leave the nation early tomorrow to take up his new position as leader of the Polish people, and has left Jozef Haller von Hallenburg in charge of Galicia in his absence."
 gal.7.a:0 "Wish him luck."
 
+### Political Parties ###
+GAL_totalist_party:0 "-"
+GAL_totalist_party_long:0 "-"
+GAL_syndicalist_party:0 "KPZU"
+GAL_syndicalist_party_long:0 "Komunistychna Partiya Zakhidnoyi Ukrayiny"
+GAL_radical_socialist_party:0 "ChSR"
+GAL_radical_socialist_party_long:0 "Chłopskie Stronnictwo Radykalne"
+GAL_social_democrat_party:0 "PPSD"
+GAL_social_democrat_party_long:0 "Związek Polskich Socjalistów"
+GAL_social_liberal_party:0 "PSL Piast"
+GAL_social_liberal_party_long:0 "Polskie Stronnictwo Ludowe Piast"
+GAL_market_liberal_party:0 "Szkoła Krakowska"
+GAL_market_liberal_party_long:0 "Krakowska Szkoła Ekonomii "
+GAL_social_conservative_party:0 "Stańczycy"
+GAL_social_conservative_party_long:0 "Stronnictwo Prawicy Narodowej - Frakcja Krakowska"
+GAL_authoritarian_democrat_party:0 "Sejm Krajowy"
+GAL_authoritarian_democrat_party_long:0 "Sejm Krajowy Królestwa Galicji i Lodomerii wraz z Wielkim Księstwem Krakowskim"
+GAL_paternal_autocrat_party:0 "Podolacy"
+GAL_paternal_autocrat_party_long:0 "Stronnictwo Prawicy Narodowej - Frakcja Lwowska"
+GAL_national_populist_party:0 "-"
+GAL_national_populist_party_long:0 "-"
+
+### Special Parties ###
