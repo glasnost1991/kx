@@ -72,7 +72,7 @@ set_research_slots = 3
 set_war_support = 0.1
 
 set_politics = {
-	ruling_party = authoritarian_democrat
+	ruling_party = social_liberal
 	last_election = "1930.11.9"
 	election_frequency = 48
 	elections_allowed = no
@@ -107,11 +107,19 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Karl Albrecht von Habsburg-Lothringen"
-	desc = "POLITICS_KARL_STEPHAN_DESC"
-	picture = "Portrait_Galicia_Karl_Albrecht.tga"
+	name = "Oleksandr Shumsky"
+	desc = "POLITICS_GAL_OLRKSANDR_SHUMSKY_DESC"
+	picture = "Portrait_GAL_Oleksandr_Shumsky.tga"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = totalist_subtype
+}
+
+create_country_leader = {
+	name = "Ostap Dlusky"
+	desc = "POLITICS_GAL_OSTAP_DLUSKY_DESC"
+	picture = "Portrait_GAL_Ostap_Dlusky.tga"
+	expire = "1965.1.1"
+	ideology = syndicalist_subtype
 }
 
 create_country_leader = {
@@ -155,11 +163,27 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Feliks Młynarski"
+	desc = "POLITICS_FELIKS_MLYNARSKI_DESC"
+	picture = "Portrait_Galicia_Feliks_Mlynarski.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+}
+
+create_country_leader = {
 	name = "Jan Potocki"
 	desc = "POLITICS_GAL_JAN_POTOCKI_DESC"
 	picture = "Portrait_GAL_Jan_Potocki.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
+}
+
+create_country_leader = {
+	name = "-"
+	desc = "POLITICS_GAL_no_DESC"
+	picture = "Portrait_GAL_no.tga"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
 }
 
 create_field_marshal = {
