@@ -55,10 +55,10 @@ gal.7.d:0 "The current Governor of Galicia and Lodomeria, Karl Albrecht von Habs
 gal.7.a:0 "Wish him luck."
 
 ### Political Parties ###
-GAL_totalist_party:0 "KPZU"
-GAL_totalist_party_long:0 "Komunistychna Partiya Zakhidnoyi Ukrayiny"
-GAL_syndicalist_party:0 "KPZU"
-GAL_syndicalist_party_long:0 "Komunistychna Partiya Zakhidnoyi Ukrayiny"
+GAL_totalist_party:0 "SPZU"
+GAL_totalist_party_long:0 "Syndykalistychna Partiya Zakhidnoyi Ukrayiny"
+GAL_syndicalist_party:0 "SPZU"
+GAL_syndicalist_party_long:0 "Syndykalistychna Partiya Zakhidnoyi Ukrayiny"
 GAL_radical_socialist_party:0 "ChSR"
 GAL_radical_socialist_party_long:0 "Chłopskie Stronnictwo Radykalne"
 GAL_social_democrat_party:0 "PPSD"

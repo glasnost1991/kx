@@ -107,9 +107,9 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Oleksandr Shumsky"
-	desc = "POLITICS_GAL_OLRKSANDR_SHUMSKY_DESC"
-	picture = "Portrait_GAL_Oleksandr_Shumsky.tga"
+	name = "Ostap Dlusky"
+	desc = "POLITICS_GAL_OSTAP_DLUSKY_DESC"
+	picture = "Portrait_GAL_Ostap_Dlusky.tga"
 	expire = "1965.1.1"
 	ideology = totalist_subtype
 }
