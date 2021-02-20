@@ -133,7 +133,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Ignacy Daszyński"
 	desc = "POLITICS_GAL_INGACY_DASZYNSKI_DESC"
-	picture = "Portrait_GAL_Karl_Ignacy_Daszynski.tga"
+	picture = "Portrait_GAL_Ignacy_Daszynski.tga"
 	expire = "1965.1.1"
 	ideology = social_democrat_subtype
 }
@@ -171,9 +171,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jan Potocki"
-	desc = "POLITICS_GAL_JAN_POTOCKI_DESC"
-	picture = "Portrait_GAL_Jan_Potocki.tga"
+	name = "Witold Czartoryski"
+	desc = "POLITICS_GAL_WITOLD_CZARTORYSKI_DESC"
+	picture = "Portrait_GAL_Witold_Czartoryski.tga"
 	expire = "1965.1.1"
 	ideology = paternal_autocrat_subtype
 }
