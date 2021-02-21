@@ -165,7 +165,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Feliks Młynarski"
 	desc = "POLITICS_FELIKS_MLYNARSKI_DESC"
-	picture = "Portrait_Galicia_Feliks_Mlynarski.tga"
+	picture = "Portrait_GAL_Feliks_Mlynarski.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 }
