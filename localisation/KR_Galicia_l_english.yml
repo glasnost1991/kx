@@ -1,6 +1,6 @@
 ﻿l_english:
 
-KX_Galicia:0 "Galicia Focus Tree"
+Galicia:0 "Galicia Focus Tree"
 
 ### Leaders ###
 
@@ -17,6 +17,26 @@ GAL_shattered_unity_desc:0 "tbd - memories of Temporary Commission of Confederat
 ### Tooltips ###
 
 ### Focuses ###
+GAL_tough_year:0 "Another Tough Year"
+GAL_tough_year_desc:0 "Another Tough Year"
+GAL_downwards_spiral:0 "Downwards Spiral"
+GAL_downwards_spiral_desc:0 "Downwards Spiral"
+GAL_calm_minorities:0 "Calm Minorities"
+GAL_calm_minorities_desc:0 "Calm Minorities"
+GAL_another_committee:0 "Another National Committee?"
+GAL_another_committee_desc:0 "Another National Committee?"
+GAL_call_gentry:0 "Call on the Gentry"
+GAL_call_gentry_desc:0 "Call on the Gentry"
+GAL_emergency_peasant:0 "Emergency Peasant Relief"
+GAL_emergency_peasant_desc:0 "Emergency Peasant Relief"
+GAL_contact_vienna:0 "Contact Vienna"
+GAL_contact_vienna_desc:0 "Contact Vienna"
+GAL_trust_market:0 "Trust the Market"
+GAL_trust_market_desc:0 "Trust the Market"
+GAL_sell_oil:0 "Sell Off Oil Supply"
+GAL_sell_oil_desc:0 "Sell Off Oil Supply"
+GAL_special_elections:0 "Announce Special Elections"
+GAL_special_elections_desc:0 "Announce Special Elections"
 
 ### Decisions ###
 
@@ -73,7 +93,9 @@ GAL_authoritarian_democrat_party:0 "SKL"
 GAL_authoritarian_democrat_party_long:0 "Stronnictwo Katolicko-Ludowe"
 GAL_paternal_autocrat_party:0 "Podolacy"
 GAL_paternal_autocrat_party_long:0 "Stronnictwo Prawicy Narodowej - Frakcja Lwowska"
-GAL_national_populist_party:0 "-"
-GAL_national_populist_party_long:0 "-"
+GAL_national_populist_party:0 "RNP"
+GAL_national_populist_party_long:0 "Ruch Narodowo-Państwowy"
 
 ### Special Parties ###
+
+### Cosmetic Tags ###

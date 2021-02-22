@@ -1,0 +1,217 @@
+###########################
+# Galician Focus Tree
+# Created by Nickay
+###########################
+
+focus_tree = {
+	id = Galicia
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GAL
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 400 y = 1800 }
+
+	##Black Monday##
+
+	focus = {# Another Tough Year
+		id = GAL_tough_year
+		icon = GAL_tough_year
+		cost = 5
+		x = 3
+		y = 0
+		ai_will_do = {
+			factor = 1500
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: GAL_tough_year"
+			add_political_power = 30
+		}
+	}
+
+        focus = { Downwards Spiral
+		id = GAL_downwards_spiral
+		icon = GAL_downwards_spiral
+		cost = 5
+                prerequisite = {
+			focus = GAL_tough_year
+		}
+                relative_position_id = GAL_tough_year
+		x = 0
+		y = 1
+		ai_will_do = {
+			factor = 1500
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAL_downwards_spiral"
+			add_political_power = 30
+		}
+	}
+
+        focus = {# Calm Minorities
+		id = GAL_calm_minorities
+		icon = GAL_calm_minorities
+		cost = 5
+                prerequisite = {
+			focus = GAL_downwards_spiral
+		}
+                relative_position_id = GAL_downwards_spiral
+		x = -2
+		y = 1
+		ai_will_do = {
+			factor = 1500
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAL_calm_minorities"
+			add_political_power = 30
+		}
+	}
+
+        focus = {# Another National Committee?
+		id = GAL_another_committee
+		icon = GAL_another_committee
+		cost = 5
+                prerequisite = {
+			focus = GAL_calm_minorities
+		}
+                relative_position_id = GAL_calm_minorities
+		x = 0
+		y = 1
+		ai_will_do = {
+			factor = 1500
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAL_another_committee"
+			add_political_power = 30
+		}
+	}
+
+        focus = { Call on the Gentry
+		id = GAL_call_gentry
+		icon = GAL_call_gentry
+		cost = 5
+                prerequisite = {
+			focus = GAL_downwards_spiral
+		}
+                relative_position_id = GAL_downwards_spiral
+		x = 0
+		y = 1
+		ai_will_do = {
+			factor = 1500
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAL_call_gentry"
+			add_political_power = 30
+		}
+	}
+
+        focus = {# Emergency Peasant Relief
+		id = GAL_emergency_peasant
+		icon = GAL_emergency_peasant
+		cost = 5
+                prerequisite = {
+			focus = GAL_call_gentry
+		}
+                relative_position_id = GAL_call_gentry
+		x = 0
+		y = 1
+		ai_will_do = {
+			factor = 1500
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAL_emergency_peasant"
+			add_political_power = 30
+		}
+	}
+
+        focus = {# Contact Vienna
+		id = GAL_contact_vienna
+		icon = GAL_contact_vienna
+		cost = 5
+                prerequisite = {
+			focus = GAL_downwards_spiral
+		}
+                relative_position_id = GAL_downwards_spiral
+		x = 2
+		y = 1
+		ai_will_do = {
+			factor = 1500
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAL_contact_vienna"
+			add_political_power = 30
+		}
+	}
+
+        focus = { #Trust the Market
+		id = GAL_trust_market
+		icon = GAL_trust_market
+		cost = 5
+                prerequisite = {
+			focus = GAL_contact_vienna
+		}
+                mutually_exclusive = {
+		          focus = GAL_sell_oil
+		}
+                relative_position_id = GAL_contact_vienna
+		x = 0
+		y = 1
+		ai_will_do = {
+			factor = 1500
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAL_trust_market"
+			add_political_power = 30
+		}
+	}
+
+        focus = {# Sell Off Oil Supply
+		id = GAL_sell_oil
+		icon = GAL_sell_oil
+		cost = 5
+                prerequisite = {
+			focus = GAL_contact_vienna
+		}
+                mutually_exclusive = {
+		          focus = GAL_trust_market
+		}
+                relative_position_id = GAL_contact_vienna
+		x = 2
+		y = 1
+		ai_will_do = {
+			factor = 1500
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAL_sell_oil"
+			add_political_power = 30
+		}
+	}
+
+        focus = {# Announce Special Elections
+		id = GAL_special_elections
+		icon = GAL_special_elections
+		cost = 5
+                prerequisite = {
+			focus = GAL_another_committee
+		}
+                prerequisite = {
+			focus = GAL_emergency_peasant
+		}
+                prerequisite = {
+			focus = GAL_trust_market
+                        focus = GAL_sell_oil
+		}
+                relative_position_id = GAL_emergency_peasant
+		x = 0
+		y = 1
+		ai_will_do = {
+			factor = 1500
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GAL_special_elections"
+			add_political_power = 30
+		}
+	}
