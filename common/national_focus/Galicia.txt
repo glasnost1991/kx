@@ -59,7 +59,7 @@ focus_tree = {
 			focus = GAL_downwards_spiral
 		}
                 relative_position_id = GAL_downwards_spiral
-		x = -2
+		x = -3
 		y = 1
 		ai_will_do = {
 			factor = 1500
@@ -97,7 +97,7 @@ focus_tree = {
 			focus = GAL_downwards_spiral
 		}
                 relative_position_id = GAL_downwards_spiral
-		x = 0
+		x = -1
 		y = 1
 		ai_will_do = {
 			factor = 1500
@@ -157,7 +157,7 @@ focus_tree = {
 		          focus = GAL_sell_oil
 		}
                 relative_position_id = GAL_contact_vienna
-		x = 0
+		x = -1
 		y = 1
 		ai_will_do = {
 			factor = 1500
@@ -179,7 +179,7 @@ focus_tree = {
 		          focus = GAL_trust_market
 		}
                 relative_position_id = GAL_contact_vienna
-		x = 2
+		x = 1
 		y = 1
 		ai_will_do = {
 			factor = 1500
@@ -205,7 +205,7 @@ focus_tree = {
                         focus = GAL_sell_oil
 		}
                 relative_position_id = GAL_emergency_peasant
-		x = 0
+		x = 1
 		y = 1
 		ai_will_do = {
 			factor = 1500
