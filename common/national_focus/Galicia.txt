@@ -29,10 +29,14 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: GAL_tough_year"
 			add_political_power = 30
+                        country_event = {
+				id = gal.11
+				days = 3
+			} 
 		}
 	}
 
-        focus = { Downwards Spiral
+        focus = {# Downwards Spiral
 		id = GAL_downwards_spiral
 		icon = GAL_downwards_spiral
 		cost = 5
@@ -86,10 +90,14 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAL_another_committee"
 			add_political_power = 30
+                        country_event = {
+				id = gal.13
+				days = 5
+			} 
 		}
 	}
 
-        focus = { Call on the Gentry
+        focus = {# Call on Ziemiaństwo
 		id = GAL_call_gentry
 		icon = GAL_call_gentry
 		cost = 5
@@ -143,6 +151,10 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAL_contact_vienna"
 			add_political_power = 30
+                        country_event = {
+				id = gal.14
+				days = 10
+			} 
 		}
 	}
 
@@ -213,5 +225,9 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAL_special_elections"
 			add_political_power = 30
+                        country_event = {
+				id = gal.15
+				days = 7
+			} 
 		}
 	}

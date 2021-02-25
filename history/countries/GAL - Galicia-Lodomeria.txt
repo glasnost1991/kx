@@ -93,6 +93,8 @@ set_popularities = {
 
 set_stability = 0.60
 
+country_event = { id = gal.10 hours = 2 } 
+
 add_ideas = {
 	GAL_Alfred_Potocki_hog_ade
 	GAL_Jerzy_Potocki_for_ade
@@ -201,6 +203,22 @@ create_field_marshal = {
 	defense_skill = 3
 	planning_skill = 2
 	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Stanisław Szeptycki"
+	picture = "Portrait_Galicia_Stanislaw_Szeptycki.tga"
+	traits = {
+		artillery_specialist
+                old_guard
+                politically_connected
+                organizer
+	}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
 }
 
 create_corps_commander = {

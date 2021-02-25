@@ -2,6 +2,8 @@
 
 Galicia:0 "Galicia Focus Tree"
 
+### By Nickay ###
+
 ### Leaders ###
 
 ### Ideas ###
@@ -25,8 +27,8 @@ GAL_calm_minorities:0 "Calm Minorities"
 GAL_calm_minorities_desc:0 "Calm Minorities"
 GAL_another_committee:0 "Another National Committee?"
 GAL_another_committee_desc:0 "Another National Committee?"
-GAL_call_gentry:0 "Call on the Gentry"
-GAL_call_gentry_desc:0 "Call on the Gentry"
+GAL_call_gentry:0 "Call on Ziemiaństwo"
+GAL_call_gentry_desc:0 "Call on Ziemiaństwo"
 GAL_emergency_peasant:0 "Emergency Peasant Relief"
 GAL_emergency_peasant_desc:0 "Emergency Peasant Relief"
 GAL_contact_vienna:0 "Contact Vienna"
@@ -73,6 +75,35 @@ gal.6.b:0 "Ruthenians aren't Poles anyway."
 gal.7.t:0 "Karl Albrecht Elected as King of Poland"
 gal.7.d:0 "The current Governor of Galicia and Lodomeria, Karl Albrecht von Habsburg, has just been elected as the new King of Poland after an intensely contested vote. Karl Albrecht is expected to leave the nation early tomorrow to take up his new position as leader of the Polish people, and has left Jozef Haller von Hallenburg in charge of Galicia in his absence."
 gal.7.a:0 "Wish him luck."
+
+gal.10.t:0 "Galicia in 1936"
+gal.10.d:0 "Kingdom of Galicia and Lodomeria and the Grand Duchy of Kraków with the Duchies of Auschwitz and Zator"
+gal.10.a:0 "We shall endure."
+
+gal.11.t:0 "Dark Clouds Over the Duchy"
+gal.11.d:0 "very bad times."
+gal.11.a:0 "It can't possibly be worse."
+
+gal.12.t:0 "Black Monday Hits Galicia!"
+gal.12.d:0 "very bad times."
+gal.12.a:0 "We are doomed!"
+
+gal.13.t:0 "A Temporary Agreement"
+gal.13.d:0 "no agreement in politics"
+gal.13.a:0 "Curses!"
+
+gal.14.t:0 "Imperial Demands"
+gal.14.d:0 "Get funds but accept Krakow Economic School and free market."
+gal.14.a:0 "We have no other choice."
+gal.14.b:0 "Damn those bureaucrats, we won't allow that."
+
+gal.15.t:0 "Snap Elections"
+gal.15.d:0 "elections"
+gal.15.a:0 "PSL"
+gal.15.b:0 "SPN - Kraków"
+gal.15.c:0 "SPN - Lwów"
+gal.15.e:0 "PPSD"
+gal.15.f:0 "ChSR"
 
 ### Political Parties ###
 GAL_totalist_party:0 "SPZU"

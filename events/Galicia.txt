@@ -121,12 +121,157 @@ country_event = { # Albrecht Elected as King of Poland
 	option = { # Wish him luck
 		name = gal.7.a
 		add_political_power = 10
-		hidden_effect = { kill_country_leader = yes }
-		create_country_leader = {
-			name = "Jozef Haller"
-			picture = "Portrait_Galicia_Jozef_Haller_von_Hallenburg.tga"
-			expire = "1965.1.1"
-			ideology = authoritarian_democrat_subtype
+	}
+}
+
+country_event = { 
+	id = gal.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gal.10" }
+	title = gal.10.t
+	desc = gal.10.d
+
+        fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { 
+		name = gal.10.a
+		add_political_power = 10
+	}
+}
+
+country_event = { 
+	id = gal.11
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gal.11" }
+	title = gal.11.t
+	desc = gal.11.d
+
+	is_triggered_only = yes
+
+	option = { 
+		name = gal.11.a
+		add_political_power = 10
+	}
+}
+
+country_event = { 
+	id = gal.12
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gal.12" }
+	title = gal.12.t
+	desc = gal.12.d
+
+	is_triggered_only = yes
+
+	option = { 
+		name = gal.12.a
+		add_political_power = 10
+	}
+}
+
+country_event = { 
+	id = gal.13
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gal.13" }
+	title = gal.13.t
+	desc = gal.13.d
+
+	is_triggered_only = yes
+
+	option = { 
+		name = gal.13.a
+		add_political_power = 10
+	}
+}
+
+country_event = { 
+	id = gal.14
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gal.14" }
+	title = gal.14.t
+	desc = gal.11.d
+
+	is_triggered_only = yes
+
+	option = { 
+		name = gal.14.a
+		add_political_power = 10
+	}
+
+        option = { 
+		name = gal.14.b
+		add_political_power = 10
+	}
+}
+
+country_event = { 
+	id = gal.15
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gal.15" }
+	title = gal.15.t
+	desc = gal.15.d
+
+	is_triggered_only = yes
+
+	option = { 
+		name = gal.15.a
+                add_popularity = {
+				ideology = social_liberal
+				popularity = 0.1
+		}
+                set_politics = {
+			ruling_party = social_liberal
+			election_frequency = 48
+			elections_allowed = no
+		}
+	}
+
+        option = { 
+		name = gal.15.b
+		add_popularity = {
+				ideology = social_conservative
+				popularity = 0.1
+		}
+                set_politics = {
+			ruling_party = social_conservative
+			election_frequency = 48
+			elections_allowed = no
+		}
+	}
+
+        option = { 
+		name = gal.15.c
+		add_popularity = {
+				ideology = paternal_autocrat
+				popularity = 0.1
+		}
+                set_politics = {
+			ruling_party = paternal_autocrat
+			election_frequency = 48
+			elections_allowed = no
+		}
+	}
+
+        option = { 
+		name = gal.15.e
+		add_popularity = {
+				ideology = social_democrat
+				popularity = 0.1
+		}
+                set_politics = {
+			ruling_party = social_democrat
+			election_frequency = 48
+			elections_allowed = no
+		}
+	}
+
+         option = { 
+		name = gal.15.f
+		add_popularity = {
+				ideology = radical_socialist
+				popularity = 0.1
+		}
+                set_politics = {
+			ruling_party = radical_socialist
+			election_frequency = 48
+			elections_allowed = no
 		}
 	}
 }
+
+
