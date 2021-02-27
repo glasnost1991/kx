@@ -1,7 +1,7 @@
 ﻿###########################
 # Galicia Events
 ###########################
-# By ~mw~
+# By Nickay
 ###########################
 
 add_namespace = gal
@@ -124,7 +124,7 @@ country_event = { # Albrecht Elected as King of Poland
 	}
 }
 
-country_event = { 
+country_event = {#Introduction 
 	id = gal.10
 	immediate = { log = "[GetDateText]: [Root.GetName]: event gal.10" }
 	title = gal.10.t
@@ -135,11 +135,10 @@ country_event = {
 
 	option = { 
 		name = gal.10.a
-		add_political_power = 10
 	}
 }
 
-country_event = { 
+country_event = {#Clouds 
 	id = gal.11
 	immediate = { log = "[GetDateText]: [Root.GetName]: event gal.11" }
 	title = gal.11.t
@@ -149,11 +148,10 @@ country_event = {
 
 	option = { 
 		name = gal.11.a
-		add_political_power = 10
 	}
 }
 
-country_event = { 
+country_event = {#BM 
 	id = gal.12
 	immediate = { log = "[GetDateText]: [Root.GetName]: event gal.12" }
 	title = gal.12.t
@@ -163,11 +161,19 @@ country_event = {
 
 	option = { 
 		name = gal.12.a
-		add_political_power = 10
+                add_stability = -0.05
+		swap_ideas = {
+			remove_idea = GAL_golicja_glodomeria
+			add_idea = GAL_golicja_glodomeria_2
+		}
+                swap_ideas = {
+			remove_idea = GAL_minority_unrest
+			add_idea = GAL_minority_unrest_2
+		}
 	}
 }
 
-country_event = { 
+country_event = {#Committee 
 	id = gal.13
 	immediate = { log = "[GetDateText]: [Root.GetName]: event gal.13" }
 	title = gal.13.t
@@ -177,11 +183,14 @@ country_event = {
 
 	option = { 
 		name = gal.13.a
-		add_political_power = 10
+		swap_ideas = {
+			remove_idea = GAL_shattered_unity
+			add_idea = GAL_shattered_unity_2
+		}
 	}
 }
 
-country_event = { 
+country_event = {#Vienna 
 	id = gal.14
 	immediate = { log = "[GetDateText]: [Root.GetName]: event gal.14" }
 	title = gal.14.t
@@ -190,17 +199,20 @@ country_event = {
 	is_triggered_only = yes
 
 	option = { 
-		name = gal.14.a
-		add_political_power = 10
+		name = gal.14.a 
+                add_political_power = 30
+                hidden_effect = {
+			set_country_flag = GAL_market_influence
+		}
 	}
 
         option = { 
 		name = gal.14.b
-		add_political_power = 10
+                add_political_power = -70
 	}
 }
 
-country_event = { 
+country_event = {#Elections 
 	id = gal.15
 	immediate = { log = "[GetDateText]: [Root.GetName]: event gal.15" }
 	title = gal.15.t

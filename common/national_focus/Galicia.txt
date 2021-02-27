@@ -19,8 +19,8 @@ focus_tree = {
 
 	focus = {# Another Tough Year
 		id = GAL_tough_year
-		icon = GAL_tough_year
-		cost = 5
+		icon = GFX_goal_bankruptcy
+		cost = 4
 		x = 3
 		y = 0
 		ai_will_do = {
@@ -38,10 +38,14 @@ focus_tree = {
 
         focus = {# Downwards Spiral
 		id = GAL_downwards_spiral
-		icon = GAL_downwards_spiral
-		cost = 5
+		icon = GFX_goal_generic_crisis
+		cost = 2
                 prerequisite = {
 			focus = GAL_tough_year
+		}
+                available = {
+			has_idea = GAL_golicja_glodomeria_2
+                        has_idea = GAL_minority_unrest_2
 		}
                 relative_position_id = GAL_tough_year
 		x = 0
@@ -51,14 +55,15 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAL_downwards_spiral"
-			add_political_power = 30
+			add_political_power = -80
+                        add_manpower = -4000
 		}
 	}
 
         focus = {# Calm Minorities
 		id = GAL_calm_minorities
-		icon = GAL_calm_minorities
-		cost = 5
+		icon = GFX_goal_generic_controlled_board
+		cost = 8
                 prerequisite = {
 			focus = GAL_downwards_spiral
 		}
@@ -70,14 +75,17 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAL_calm_minorities"
-			add_political_power = 30
+			swap_ideas = {
+			remove_idea = GAL_minority_unrest_2
+			add_idea = GAL_minority_unrest_3
+			}
 		}
 	}
 
         focus = {# Another National Committee?
 		id = GAL_another_committee
-		icon = GAL_another_committee
-		cost = 5
+		icon = GFX_goal_generic_council
+		cost = 4
                 prerequisite = {
 			focus = GAL_calm_minorities
 		}
@@ -99,7 +107,7 @@ focus_tree = {
 
         focus = {# Call on Ziemiaństwo
 		id = GAL_call_gentry
-		icon = GAL_call_gentry
+		icon = GFX_HUN_placate_special_interests
 		cost = 5
                 prerequisite = {
 			focus = GAL_downwards_spiral
@@ -112,14 +120,18 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAL_call_gentry"
-			add_political_power = 30
+			add_political_power = 200
+                        add_popularity = {
+				ideology = social_liberal
+				popularity = 0.05
+		        }
 		}
 	}
 
         focus = {# Emergency Peasant Relief
 		id = GAL_emergency_peasant
-		icon = GAL_emergency_peasant
-		cost = 5
+		icon = GFX_goal_agricultural_aid
+		cost = 9
                 prerequisite = {
 			focus = GAL_call_gentry
 		}
@@ -131,14 +143,17 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAL_emergency_peasant"
-			add_political_power = 30
+                        swap_ideas = {
+			remove_idea = GAL_golicja_glodomeria_2
+			add_idea = GAL_golicja_glodomeria_3
+		        }
 		}
 	}
 
         focus = {# Contact Vienna
 		id = GAL_contact_vienna
-		icon = GAL_contact_vienna
-		cost = 5
+		icon = GFX_goal_austria
+		cost = 7
                 prerequisite = {
 			focus = GAL_downwards_spiral
 		}
@@ -160,10 +175,13 @@ focus_tree = {
 
         focus = { #Trust the Market
 		id = GAL_trust_market
-		icon = GAL_trust_market
-		cost = 5
+		icon = GFX_theinternationalmarket
+		cost = 3
                 prerequisite = {
 			focus = GAL_contact_vienna
+		}
+                available = {
+			has_country_flag = GAL_market_influence
 		}
                 mutually_exclusive = {
 		          focus = GAL_sell_oil
@@ -176,16 +194,25 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAL_trust_market"
-			add_political_power = 30
+			add_ideas = GAL_market_influence
+                        swap_ideas = {
+			remove_idea = GAL_rural_society
+			add_idea = GAL_rural_society_2
+		        }
 		}
 	}
 
         focus = {# Sell Off Oil Supply
 		id = GAL_sell_oil
-		icon = GAL_sell_oil
-		cost = 5
+		icon = GFX_goal_basic_oil
+		cost = 6
                 prerequisite = {
 			focus = GAL_contact_vienna
+		}
+                available = {
+			NOT = {
+			has_country_flag = GAL_market_influence
+			}
 		}
                 mutually_exclusive = {
 		          focus = GAL_trust_market
@@ -198,14 +225,21 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GAL_sell_oil"
-			add_political_power = 30
+                        add_timed_idea = {
+				idea = GAL_selling_oil
+				days = 46
+			}
+                        swap_ideas = {
+			remove_idea = GAL_rural_society
+			add_idea = GAL_rural_society_2
+		        }
 		}
 	}
 
         focus = {# Announce Special Elections
 		id = GAL_special_elections
-		icon = GAL_special_elections
-		cost = 5
+		icon = GFX_goal_generic_elections
+		cost = 6
                 prerequisite = {
 			focus = GAL_another_committee
 		}
