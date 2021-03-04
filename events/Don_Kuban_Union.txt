@@ -1229,7 +1229,11 @@ country_event = { #united cossack host
 			
 	option = {
 		name = dkb.102.a
-		every_country = {
+		if = {
+			limit = {
+			ROOT = is_faction_leader =yes
+			}
+			every_country = {
 			limit = {
 				is_in_faction_with = ROOT
 				is_ai = yes
@@ -1251,7 +1255,14 @@ country_event = { #united cossack host
 			}
 		}
 		dismantle_faction = yes
-		set_cosmetic_tag = DKB_UCH
+		set_cosmetic_tag = DKB_UCH 
+			
+		
+		}
+		else = {
+			add_political_power = 20
+		}
+
 	}
 }		
 country_event = { #chance for democracy
@@ -4702,7 +4713,7 @@ country_event = { #Demand incorporation
 	option = {
 		name = dkbfor.1.a
 		ai_chance = {
-			factor = 25
+			factor = 5
 			modifier = {
 				factor = 3
 				FROM = { same_government_type_as_ROOT = yes }
@@ -4718,7 +4729,7 @@ country_event = { #Demand incorporation
 	option = {
 		name = dkbfor.1.a
 		ai_chance = {
-			factor = 75
+			factor = 95
 			modifier = {
 				add = -50
 				FROM = { same_government_type_as_ROOT = yes }
