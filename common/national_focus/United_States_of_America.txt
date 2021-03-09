@@ -12545,6 +12545,7 @@ focus_tree = {
 			OR = {
 			has_government = social_conservative
 			has_government = authoritarian_democrat
+			has_government = paternal_autocrat
 			}
 		}
 		ai_will_do = {
@@ -14024,7 +14025,9 @@ focus_tree = {
 			CAN = {
 			is_puppet_of = USA
 			}
+			CAN = {
 			has_war_with = USA
+			}
 			}
 		}
 		relative_position_id = USA_back_in_business
