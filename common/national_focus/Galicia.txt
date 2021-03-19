@@ -532,7 +532,7 @@ focus_tree = {
 			focus = GAL_kraj_wloscian
 		}
                 mutually_exclusive = {
-		          focus = GAL_ukrainian_cooperatio
+		          focus = GAL_ukrainian_cooperation
 		}
                 relative_position_id = GAL_kraj_wloscian
 		x = 0
