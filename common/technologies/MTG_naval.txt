@@ -3347,15 +3347,21 @@ technologies = {
 		naval_invasion_capacity = 40
 
 		path = {
-			leads_to_tech = tank_landing_craft
+			leads_to_tech = mtg_tank_landing_craft
 			research_cost_coeff = 1
 		}
-
+		
+		enable_equipments = {
+			floating_harbor_equipment_1
+		}
+		force_use_small_tech_layout = yes
+		show_equipment_icon = yes
+		
 		research_cost = 2
 		start_year = 1940
 
 		folder = {
-			name = naval_folder
+			name = mtgnavalfolder
 			position = { x = 0 y = 13 }
 		}
 
