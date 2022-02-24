@@ -5328,6 +5328,11 @@ russoc.4.d:0 "The RSDRP, or Mensheviks, is the most rightist party in the politi
 russoc.4.a:0 "Invite the Mensheviks to the Congress."
 russoc.4.b:0 "Menshevism is the restitution of capitalism."
 
+russoc.601.t:0 "Question of the PSR"
+russoc.601.d:0 "The radical wing of the Party of Socialists-Revolutionaries has captured the attention of the Emergency Congress after the recent arrival of their own representatives, petitioning the Congress to allow them participation in elections. While they claim to have broken with Kerenksyism, their collaboration with the former counterrevolutionary regime has raised a few eyebrows. Amidst this reluctance, however, the rightists discontentedly mumble about the legitimacy the PSR could bring with them, and some in the PLSR admit to sharing quite a bit of common ground with PSR policy. With the Congress seemingly equally split, its final decision is anyone's guess." 
+russoc.601.a:0 "Allow their radicals to participate."
+russoc.601.b:0 "Kerensky is gone, and so too is his party!"
+
 bolshevik_increase:0 "§GThe influence of Bolsheviks will increase§!\n"
 vkps_increase:0 "§GThe influence of Left SRs will increase§!\n"
 nsp_increase:0 "§GThe influence of NSP will increase§!\n"

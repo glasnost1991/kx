@@ -29678,13 +29678,7 @@ country_event = { #Unlock political decisions
 country_event = { #Socialist congress
 	id = russoc.2
 	immediate = {
-		if = {
-			limit = {
-				NOT = { has_idea = RUS_Vladimir_K_Volsky_hog_rso }
-			}
-			set_country_flag = psr_banned
-		}
-		set_country_flag = rkp_banned 
+		clr_country_flag = rkp_banned 
 		setup_soviet_congress = yes
 	}			
 	title = russoc.2.t
@@ -29695,20 +29689,9 @@ country_event = { #Socialist congress
 	option = {
 		name = russoc.2.a
 		add_political_power = 50
-		if = {
-			limit = {
-				NOT = { has_government = social_democrat }
-			}
-			country_event = {
-				id = russoc.4
-				days = 5
-			}
-		}
-		else = {
-			country_event = {
-				id = russoc.6
-				days = 5
-			}
+		country_event = {
+				id = russoc.3
+				days = 2
 		}
 	}
 }
@@ -29721,7 +29704,7 @@ country_event = { #Question of Bolsheviks
 	option = {
 		name = russoc.3.a
 		ai_chance = {
-			factor = 30
+			factor = 90
 			modifier = {
 				factor = 10000
 				has_game_rule = {
@@ -29740,21 +29723,43 @@ country_event = { #Question of Bolsheviks
 			ideology = authcom_subtype
 			traits = {}
 		}
-		country_event = {
-			id = russoc.6
-			days = 10
+		if = {
+			limit = {
+				NOT = { has_government = social_democrat }
+			}
+			country_event = {
+				id = russoc.4
+				days = 5
+			}
+		}
+		else = {
+			country_event = {
+				id = russoc.601
+				days = 5
+			}
 		}
 	}
 	option = {
 		name = russoc.3.b
 		ai_chance = {
-			factor = 70
+			factor = 10
 		}
 		set_country_flag = rkp_banned 
 		add_political_power = 25
-		country_event = {
-			id = russoc.6
-			days = 10
+		if = {
+			limit = {
+				NOT = { has_government = social_democrat }
+			}
+			country_event = {
+				id = russoc.4
+				days = 5
+			}
+		}
+		else = {
+			country_event = {
+				id = russoc.601
+				days = 5
+			}
 		}
 	}
 }
@@ -29767,7 +29772,7 @@ country_event = { #Question of Mensheviks
 	option = {
 		name = russoc.4.a
 		ai_chance = {
-			factor = 80
+			factor = 40
 			modifier = {
 			factor = 10000
 			has_game_rule = {
@@ -29784,16 +29789,57 @@ country_event = { #Question of Mensheviks
 			popularity = 0.025
 		}
 		country_event = {
-			id = russoc.6
+			id = russoc.601
 			days = 5
 		}
 	}
 	option = {
 		name = russoc.4.b
 		ai_chance = {
-			factor = 20
+			factor = 60
 		}
 		set_country_flag = rsdrp_banned 
+		add_political_power = 25
+		country_event = {
+			id = russoc.601
+			days = 5
+		}
+	}
+}
+country_event = { #Question of PSR
+	id = russoc.601
+	title = russoc.601.t
+	desc = russoc.601.d
+	is_triggered_only = yes
+	
+	option = {
+		name = russoc.601.a
+		ai_chance = {
+			factor = 55
+			modifier = {
+			factor = 10000
+			has_game_rule = {
+					rule = SOV_path
+					option = RULE_OPTION_SOV_PATH_PSR
+				}
+			}
+		}
+		clr_country_flag = psr_banned 
+		add_popularity = {
+			ideology = radical_socialist
+			popularity = 0.015
+		}
+		country_event = {
+			id = russoc.6
+			days = 5
+		}
+	}
+	option = {
+		name = russoc.601.b
+		ai_chance = {
+			factor = 45
+		}
+		set_country_flag = psr_banned 
 		add_political_power = 25
 		country_event = {
 			id = russoc.6

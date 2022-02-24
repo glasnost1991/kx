@@ -51,7 +51,7 @@ ideologies = {
 			"FACTION_NAME_TOTALIST_5"
 			"FACTION_NAME_TOTALIST_6"
 		}
-		color = { 127 0 0 }
+		color = { 94 36 36 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -95,7 +95,7 @@ ideologies = {
 			"FACTION_NAME_SYNDICALIST_5"
 			"FACTION_NAME_SYNDICALIST_6"
 		}
-		color = { 255 0 0 }
+		color = { 135 46 46 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -147,7 +147,7 @@ ideologies = {
 			"FACTION_NAME_RADICAL_SOCIALIST_5"
 			"FACTION_NAME_RADICAL_SOCIALIST_6"
 		}
-		color = { 233 58 58 }
+		color = { 168 55 55 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -197,7 +197,7 @@ ideologies = {
 			"FACTION_NAME_SOCIAL_DEMOCRAT_5"
 			"FACTION_NAME_SOCIAL_DEMOCRAT_6"
 		}
-		color = { 194 30 86 }
+		color = { 152 77 119 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -244,7 +244,7 @@ ideologies = {
 			"FACTION_NAME_SOCIAL_LIBERAL_5"
 			"FACTION_NAME_SOCIAL_LIBERAL_6"
 		}
-		color = { 255 170 0 }
+		color = { 93 112 178 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -288,7 +288,7 @@ ideologies = {
 			"FACTION_NAME_MARKET_LIBERAL_5"
 			"FACTION_NAME_MARKET_LIBERAL_6"
 		}
-		color = { 255 216 0 }
+		color = { 73 88 140 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -333,7 +333,7 @@ ideologies = {
 			"FACTION_NAME_SOCIAL_CONSERVATIVE_5"
 			"FACTION_NAME_SOCIAL_CONSERVATIVE_6"
 		}
-		color = { 0 0 255 }
+		color = { 49 61 103 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -385,7 +385,7 @@ ideologies = {
 			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_5"
 			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_6"
 		}
-		color = { 110 110 110 }
+		color = { 111 111 111 }
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -501,7 +501,7 @@ ideologies = {
 			"FACTION_NAME_NATIONAL_POPULIST_5"
 			"FACTION_NAME_NATIONAL_POPULIST_6"
 		}
-		color = { 142 57 0 }
+		color = { 98 81 59 }
 		rules = {
 			can_force_government = no
 			can_puppet = no

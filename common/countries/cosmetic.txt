@@ -2133,3 +2133,168 @@ RVA_TSAR = {
 	color = rgb { 255 235 120 }
 	color_ui = rgb { 255 230 50 }
 }
+#glas
+TRY_SSR = {
+    color = rgb { 235 62 66 }
+    color_ui = rgb { 235 62 66 }
+}
+
+BNT_SSR = {
+    color = rgb { 169 62 66 }
+    color_ui = rgb { 169 62 66 }
+}
+
+SLO_SSR = {
+    color = rgb { 178 59 63 }
+    color_ui = rgb { 178 59 63 }
+}
+
+CRO_SSR = {
+    color = rgb { 161 40 44 }
+    color_ui = rgb { 161 40 44 }
+}
+JAP_SSR = {
+	color = rgb { 255 80 80 }
+	color_ui = rgb { 255 119 0 }
+}
+DEN_SOV = {
+    color = rgb { 150 25 25 }
+	color_ui = rgb { 163 17 31 }
+}
+SWE_SOV = {
+    color = rgb { 160 10 10 }
+	color_ui = rgb { 163 17 31 }
+}
+NOR_SOV = {
+    color = rgb { 170 15 15 }
+	color_ui = rgb { 163 17 31 }
+}
+FIN_SOV = {
+    color = rgb { 100 5 5 }
+	color_ui = rgb { 163 17 31 }
+}
+CZE_SOV = {
+    color = rgb { 200 80 100 }
+	color_ui = rgb { 163 17 31 }
+}
+HUN_SOV = {
+    color = rgb { 135 50 20 }
+	color_ui = rgb { 163 17 31 }
+}
+BUL_SOV = {
+    color = rgb { 200 5 5 }
+	color_ui = rgb { 163 17 31 }
+}
+YUG_SOV = {
+    color = rgb { 200 5 5 }
+	color_ui = rgb { 163 17 31 }
+}
+GRE_SOV = {
+    color = rgb { 87 8 8 }
+	color_ui = rgb { 163 17 31 }
+}
+GER_SOV = {
+    color = rgb { 50 5 5 }
+	color_ui = rgb { 163 17 31 }
+}
+POR_SOV = {
+    color = rgb { 220 70 80 }
+	color_ui = rgb { 163 17 31 }
+}
+IRE_SOV = {
+    color = rgb { 152 35 35 }
+	color_ui = rgb { 163 17 31 }
+}
+ROM_SOV = {
+    color = rgb { 255 5 5 }
+	color_ui = rgb { 163 17 31 }
+}
+AUS_SOV = {
+    color = rgb { 125 60 60 }
+	color_ui = rgb { 163 17 31 }
+}
+HOL_SOV = {
+    color = rgb { 120 60 60 }
+	color_ui = rgb { 163 17 31 }
+}
+BEL_SOV = {
+    color = rgb { 134 20 20 }
+	color_ui = rgb { 163 17 31 }
+}
+LUX_SOV = {
+    color = rgb { 200 5 5 }
+	color_ui = rgb { 163 17 31 }
+}
+GLC_SOV = {
+	color = rgb { 120 0 0 }
+	color_ui = rgb { 163 17 31 }
+}
+ARM_SOV = {
+	color = rgb { 142 80 114 }
+	color_ui = rgb { 163 17 31 }
+}
+
+AZR_SOV = {
+	color = rgb { 160 59 59 }
+	color_ui = rgb { 163 17 31 }
+}
+
+BLR_SOV = {
+	color = rgb { 189 17 62 }
+	color_ui = rgb { 163 17 31 }
+}
+
+KAR_SOV = {
+	color = rgb { 155 10 10 }
+	color_ui = rgb { 163 17 31 }
+}
+
+GEO_SOV = {
+	color = rgb { 142 80 80 }
+	color_ui = rgb { 163 17 31 }
+}
+
+KAZ_SOV = {
+	color = rgb { 155 10 10 }
+	color_ui = rgb { 163 17 31 }
+}
+
+TRK_SOV = {
+	color = rgb { 161 58 74 }
+	color_ui = rgb { 163 17 31 }
+}
+
+LAT_SOV = {
+	color = rgb { 161 58 74 }
+	color_ui = rgb { 163 17 31 }
+}
+
+LIT_SOV = {
+	color = rgb { 183 100 75 }
+	color_ui = rgb { 163 17 31 }
+}
+
+EST_SOV = {
+	color = rgb { 114 47 93 }
+	color_ui = rgb { 163 17 31 }
+}
+
+UKR_SOV = {
+	color = rgb { 161 83 58 }
+	color_ui = rgb { 163 17 31 }
+}
+
+DKB_SOV = {
+	color = rgb { 148 30 67 }
+	color_ui = rgb { 163 17 31 }
+}
+
+KLY_SOV = {
+	color = rgb { 141 84 84 }
+	color_ui = rgb { 163 17 31 }
+}
+
+MTR_SOV = {
+	color = rgb { 105 59 61 }
+	color_ui = rgb { 163 17 31 }
+}
